@@ -1,0 +1,33 @@
+Determining if the secure_getenv exist failed with the following output:
+Change Dir: /home/michele/OpenCog_ALL/cogserver/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ccc6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_ccc6a.dir/build.make CMakeFiles/cmTC_ccc6a.dir/build
+make[1]: ingresso nella directory "/home/michele/OpenCog_ALL/cogserver/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_ccc6a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -fPIC -fstack-protector  -o CMakeFiles/cmTC_ccc6a.dir/CheckSymbolExists.c.o -c /home/michele/OpenCog_ALL/cogserver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/michele/OpenCog_ALL/cogserver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/michele/OpenCog_ALL/cogserver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘secure_getenv’ undeclared (first use in this function)
+   return ((int*)(&secure_getenv))[argc];
+                   ^~~~~~~~~~~~~
+/home/michele/OpenCog_ALL/cogserver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_ccc6a.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_ccc6a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ccc6a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: uscita dalla directory "/home/michele/OpenCog_ALL/cogserver/build/CMakeFiles/CMakeTmp"
+Makefile:140: recipe for target 'cmTC_ccc6a/fast' failed
+make: *** [cmTC_ccc6a/fast] Error 2
+
+
+File /home/michele/OpenCog_ALL/cogserver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef secure_getenv
+  return ((int*)(&secure_getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

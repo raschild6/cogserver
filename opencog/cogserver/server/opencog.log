@@ -1,0 +1,42 @@
+[2020-10-04 14:54:44:292] [WARN] No config file found!
+
+[2020-10-04 14:54:44:292] [WARN] Searched for "../lib/development.conf"
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ./
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ../
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ../../
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ../../../
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ../../../../
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ./lib/
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ../lib/
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ../../lib/
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ../../../lib/
+
+[2020-10-04 14:54:44:292] [WARN] Searched at ../../../../lib/
+
+[2020-10-04 14:54:44:292] [WARN] Searched at /usr/local/etc
+
+[2020-10-04 14:54:44:292] [WARN] Searched at /etc/opencog
+
+[2020-10-04 14:54:44:292] [WARN] Searched at /etc
+
+[2020-10-04 14:54:44:292] [ERROR] unable to open file "../lib/development.conf" (/home/michele/OpenCog_ALL/cogutil/opencog/util/Config.cc:204)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:182	  opencog::IOException::IOException(char const*, char const*, ...)
+	7: Config.cc:205	  opencog::Config::load(char const*, bool)
+	8: stl_iterator.h:783	??()
+	9: libc-start.c:344	__libc_start_main()
+	10: [0x816a] ??() ??:0
+

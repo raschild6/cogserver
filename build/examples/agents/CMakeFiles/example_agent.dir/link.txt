@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wall -fPIC -fstack-protector -Wno-variadic-macros -fopenmp -std=gnu++17 -O3 -g -shared -Wl,-soname,libexample_agent.so -o libexample_agent.so CMakeFiles/example_agent.dir/ExampleAgent.cc.o  -lpthread 

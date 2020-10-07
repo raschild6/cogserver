@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from opencog.agent_finder import find_subclasses
 import opencog.cogserver
+from opencog.agent_finder import find_subclasses
 
 import test_agent
 

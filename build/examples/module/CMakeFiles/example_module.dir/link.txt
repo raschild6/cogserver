@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wall -fPIC -fstack-protector -Wno-variadic-macros -fopenmp -std=gnu++17 -O3 -g -shared -Wl,-soname,libexample_module.so -o libexample_module.so CMakeFiles/example_module.dir/ExampleModule.cc.o  -lpthread 

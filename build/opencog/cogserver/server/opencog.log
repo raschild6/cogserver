@@ -1,0 +1,306 @@
+[2020-10-06 10:10:11:974] [ERROR] Cannot connect to database: fe_sendauth: no password supplied
+ (/home/michele/OpenCog_ALL/atomspace/opencog/persist/sql/multi-driver/ll-pg-cxx.cc:54)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: ll-pg-cxx.cc:55	  LLPGConnection::LLPGConnection(char const*)
+	8: SQLAtomStorage.cc:111	  opencog::SQLAtomStorage::enlarge_conn_pool(int)
+	9: SQLAtomStorage.cc:158	  opencog::SQLAtomStorage::connect(char const*)
+	10: SQLAtomStorage.cc:333	  opencog::SQLAtomStorage::create_database()
+	11: SQLPersistSCM.cc:83	  opencog::SQLPersistSCM::do_create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	12: basic_string.h:211	??()
+	13: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	14: [0xb130c] ??() ??:0
+	15: [0xbb137] ??() ??:0
+	16: [0x3e7e7] ??() ??:0
+	17: [0x3e843] ??() ??:0
+	18: [0x89f30] ??() ??:0
+	19: [0x551ad] ??() ??:0
+	20: [0x37a4a] ??() ??:0
+	21: [0xb88ff] ??() ??:0
+	22: [0xbb137] ??() ??:0
+	23: [0xa9da2] ??() ??:0
+	24: [0x38030] ??() ??:0
+	25: [0x380c5] ??() ??:0
+	26: [0xa89ec] ??() ??:0
+	27: [0x1bc42] ??() ??:0
+	28: [0xa8d08] ??() ??:0
+	29: [0x55342] ??() ??:0
+	30: [0x994] ??() ??:0
+	31: libc-start.c:344	__libc_start_main()
+	32: [0xa2a] ??() ??:0
+
+[2020-10-06 10:11:17:521] [ERROR] Cannot connect to database: fe_sendauth: no password supplied
+ (/home/michele/OpenCog_ALL/atomspace/opencog/persist/sql/multi-driver/ll-pg-cxx.cc:54)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: ll-pg-cxx.cc:55	  LLPGConnection::LLPGConnection(char const*)
+	8: SQLAtomStorage.cc:111	  opencog::SQLAtomStorage::enlarge_conn_pool(int)
+	9: SQLAtomStorage.cc:158	  opencog::SQLAtomStorage::connect(char const*)
+	10: SQLAtomStorage.cc:333	  opencog::SQLAtomStorage::create_database()
+	11: SQLPersistSCM.cc:83	  opencog::SQLPersistSCM::do_create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	12: basic_string.h:211	??()
+	13: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	14: [0xb130c] ??() ??:0
+	15: [0xbb137] ??() ??:0
+	16: [0x3e7e7] ??() ??:0
+	17: [0x3e843] ??() ??:0
+	18: [0x89f30] ??() ??:0
+	19: [0x551ad] ??() ??:0
+	20: [0x37a4a] ??() ??:0
+	21: [0xb88ff] ??() ??:0
+	22: [0xbb137] ??() ??:0
+	23: [0xa9da2] ??() ??:0
+	24: [0x38030] ??() ??:0
+	25: [0x380c5] ??() ??:0
+	26: [0xa89ec] ??() ??:0
+	27: [0x1bc42] ??() ??:0
+	28: [0xa8d08] ??() ??:0
+	29: [0x55342] ??() ??:0
+	30: [0x994] ??() ??:0
+	31: libc-start.c:344	__libc_start_main()
+	32: [0xa2a] ??() ??:0
+
+[2020-10-06 10:11:51:060] [ERROR] Cannot connect to database: FATALE:  autenticazione con password fallita per l'utente "root"
+ (/home/michele/OpenCog_ALL/atomspace/opencog/persist/sql/multi-driver/ll-pg-cxx.cc:54)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: ll-pg-cxx.cc:55	  LLPGConnection::LLPGConnection(char const*)
+	8: SQLAtomStorage.cc:111	  opencog::SQLAtomStorage::enlarge_conn_pool(int)
+	9: SQLAtomStorage.cc:158	  opencog::SQLAtomStorage::connect(char const*)
+	10: SQLAtomStorage.cc:333	  opencog::SQLAtomStorage::create_database()
+	11: SQLPersistSCM.cc:83	  opencog::SQLPersistSCM::do_create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	12: basic_string.h:211	??()
+	13: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	14: [0xb130c] ??() ??:0
+	15: [0xbb137] ??() ??:0
+	16: [0x3e7e7] ??() ??:0
+	17: [0x3e843] ??() ??:0
+	18: [0x89f30] ??() ??:0
+	19: [0x551ad] ??() ??:0
+	20: [0x37a4a] ??() ??:0
+	21: [0xb88ff] ??() ??:0
+	22: [0xbb137] ??() ??:0
+	23: [0xa9da2] ??() ??:0
+	24: [0x38030] ??() ??:0
+	25: [0x380c5] ??() ??:0
+	26: [0xa89ec] ??() ??:0
+	27: [0x1bc42] ??() ??:0
+	28: [0xa8d08] ??() ??:0
+	29: [0x55342] ??() ??:0
+	30: [0x994] ??() ??:0
+	31: libc-start.c:344	__libc_start_main()
+	32: [0xa2a] ??() ??:0
+
+[2020-10-06 10:12:25:889] [ERROR] Cannot connect to database: FATALE:  il database "foo" non esiste
+ (/home/michele/OpenCog_ALL/atomspace/opencog/persist/sql/multi-driver/ll-pg-cxx.cc:54)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: ll-pg-cxx.cc:55	  LLPGConnection::LLPGConnection(char const*)
+	8: SQLAtomStorage.cc:111	  opencog::SQLAtomStorage::enlarge_conn_pool(int)
+	9: SQLAtomStorage.cc:158	  opencog::SQLAtomStorage::connect(char const*)
+	10: SQLAtomStorage.cc:333	  opencog::SQLAtomStorage::create_database()
+	11: SQLPersistSCM.cc:83	  opencog::SQLPersistSCM::do_create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	12: basic_string.h:211	??()
+	13: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	14: [0xb130c] ??() ??:0
+	15: [0xbb137] ??() ??:0
+	16: [0x3e7e7] ??() ??:0
+	17: [0x3e843] ??() ??:0
+	18: [0x89f30] ??() ??:0
+	19: [0x551ad] ??() ??:0
+	20: [0x37a4a] ??() ??:0
+	21: [0xb88ff] ??() ??:0
+	22: [0xbb137] ??() ??:0
+	23: [0xa9da2] ??() ??:0
+	24: [0x38030] ??() ??:0
+	25: [0x380c5] ??() ??:0
+	26: [0xa89ec] ??() ??:0
+	27: [0x1bc42] ??() ??:0
+	28: [0xa8d08] ??() ??:0
+	29: [0x55342] ??() ??:0
+	30: [0x994] ??() ??:0
+	31: libc-start.c:344	__libc_start_main()
+	32: [0xa2a] ??() ??:0
+
+[2020-10-06 10:14:41:585] [ERROR] sql-close: Error: Database not open (/home/michele/OpenCog_ALL/atomspace/opencog/persist/sql/multi-driver/SQLPersistSCM.cc:123)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: SQLPersistSCM.cc:124	  opencog::SQLPersistSCM::do_close()
+	8: SchemePrimitive.h:420	  opencog::SchemePrimitive<void, opencog::SQLPersistSCM>::invoke(scm_unused_struct*)
+	9: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	10: [0xb130c] ??() ??:0
+	11: [0xbb137] ??() ??:0
+	12: [0x3e7e7] ??() ??:0
+	13: [0x3e843] ??() ??:0
+	14: [0x89f30] ??() ??:0
+	15: [0x551ad] ??() ??:0
+	16: [0x37a4a] ??() ??:0
+	17: [0xb88ff] ??() ??:0
+	18: [0xbb137] ??() ??:0
+	19: [0xa9da2] ??() ??:0
+	20: [0x38030] ??() ??:0
+	21: [0x380c5] ??() ??:0
+	22: [0xa89ec] ??() ??:0
+	23: [0x1bc42] ??() ??:0
+	24: [0xa8d08] ??() ??:0
+	25: [0x55342] ??() ??:0
+	26: [0x994] ??() ??:0
+	27: libc-start.c:344	__libc_start_main()
+	28: [0xa2a] ??() ??:0
+
+[2020-10-06 10:15:16:404] [ERROR] Cannot connect to database: separatore chiave/valore "=" mancante nei parametri della URI: "user?opencog_tester"
+ (/home/michele/OpenCog_ALL/atomspace/opencog/persist/sql/multi-driver/ll-pg-cxx.cc:54)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: ll-pg-cxx.cc:55	  LLPGConnection::LLPGConnection(char const*)
+	8: SQLAtomStorage.cc:111	  opencog::SQLAtomStorage::enlarge_conn_pool(int)
+	9: SQLAtomStorage.cc:158	  opencog::SQLAtomStorage::connect(char const*)
+	10: SQLAtomStorage.cc:199	  opencog::SQLAtomStorage::open()
+	11: shared_ptr_base.h:975	??()
+	12: basic_string.h:211	??()
+	13: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	14: [0xb130c] ??() ??:0
+	15: [0xbb137] ??() ??:0
+	16: [0x3d9d4] ??() ??:0
+	17: basic_string.h:211	??()
+	18: SchemePrimitive.cc:170	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	19: [0xb130c] ??() ??:0
+	20: [0xbb137] ??() ??:0
+	21: [0x3e7e7] ??() ??:0
+	22: [0x3e843] ??() ??:0
+	23: [0x89f30] ??() ??:0
+	24: [0x551ad] ??() ??:0
+	25: [0x37a4a] ??() ??:0
+	26: [0xb88ff] ??() ??:0
+	27: [0xbb137] ??() ??:0
+	28: [0xa9da2] ??() ??:0
+	29: [0x38030] ??() ??:0
+	30: [0x380c5] ??() ??:0
+	31: [0xa89ec] ??() ??:0
+	32: [0x1bc42] ??() ??:0
+	33: [0xa8d08] ??() ??:0
+	34: [0x55342] ??() ??:0
+	35: [0x994] ??() ??:0
+	36: libc-start.c:344	__libc_start_main()
+	37: [0xa2a] ??() ??:0
+
+[2020-10-06 10:15:47:065] [ERROR] sql-open: Error: Already connected to a database! (/home/michele/OpenCog_ALL/atomspace/opencog/persist/sql/multi-driver/SQLPersistSCM.cc:89)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: SQLPersistSCM.cc:90	  opencog::SQLPersistSCM::do_open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	8: basic_string.h:211	??()
+	9: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	10: [0xb130c] ??() ??:0
+	11: [0xbb137] ??() ??:0
+	12: [0x3e7e7] ??() ??:0
+	13: [0x3e843] ??() ??:0
+	14: [0x89f30] ??() ??:0
+	15: [0x551ad] ??() ??:0
+	16: [0x37a4a] ??() ??:0
+	17: [0xb88ff] ??() ??:0
+	18: [0xbb137] ??() ??:0
+	19: [0xa9da2] ??() ??:0
+	20: [0x38030] ??() ??:0
+	21: [0x380c5] ??() ??:0
+	22: [0xa89ec] ??() ??:0
+	23: [0x1bc42] ??() ??:0
+	24: [0xa8d08] ??() ??:0
+	25: [0x55342] ??() ??:0
+	26: [0x994] ??() ??:0
+	27: libc-start.c:344	__libc_start_main()
+	28: [0xa2a] ??() ??:0
+
+[2020-10-06 10:16:30:526] [ERROR] No open connection to storage! (/home/michele/OpenCog_ALL/atomspace/opencog/persist/api/PersistSCM.cc:223)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: PersistSCM.cc:223	  opencog::PersistSCM::dflt_fetch_atom(opencog::Handle)
+	8: shared_ptr_base.h:683	??()
+	9: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	10: [0xb130c] ??() ??:0
+	11: [0xbb137] ??() ??:0
+	12: [0x3d9d4] ??() ??:0
+	13: [0x3bb45] ??() ??:0
+	14: [0x3bbff] ??() ??:0
+	15: [0x601cd] ??() ??:0
+	16: [0xb100a] ??() ??:0
+	17: [0xbb137] ??() ??:0
+	18: [0x3e7e7] ??() ??:0
+	19: [0x3e843] ??() ??:0
+	20: [0x89f30] ??() ??:0
+	21: [0x551ad] ??() ??:0
+	22: [0x37a4a] ??() ??:0
+	23: [0xb88ff] ??() ??:0
+	24: [0xbb137] ??() ??:0
+	25: [0xa9da2] ??() ??:0
+	26: [0x38030] ??() ??:0
+	27: [0x380c5] ??() ??:0
+	28: [0xa89ec] ??() ??:0
+	29: [0x1bc42] ??() ??:0
+	30: [0xa8d08] ??() ??:0
+	31: [0x55342] ??() ??:0
+	32: [0x994] ??() ??:0
+	33: libc-start.c:344	__libc_start_main()
+	34: [0xa2a] ??() ??:0
+
+[2020-10-06 10:17:08:988] [ERROR] sql-open: Error: Already connected to a database! (/home/michele/OpenCog_ALL/atomspace/opencog/persist/sql/multi-driver/SQLPersistSCM.cc:89)
+	Stack Trace:
+	2: basic_string.h:211	??()
+	3: Logger.cc:593	  opencog::Logger::Error::operator()(char const*, ...)
+	4: exceptions.cc:55	  opencog::StandardException::parse_error_message(char const*, __va_list_tag*, bool)
+	5: exceptions.cc:82	  opencog::StandardException::parse_error_message(char const*, char const*, __va_list_tag*, bool)
+	6: exceptions.cc:142	  opencog::RuntimeException::RuntimeException(char const*, char const*, ...)
+	7: SQLPersistSCM.cc:90	  opencog::SQLPersistSCM::do_open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	8: basic_string.h:211	??()
+	9: SchemePrimitive.cc:177	  opencog::PrimitiveEnviron::do_call(scm_unused_struct*, scm_unused_struct*)
+	10: [0xb130c] ??() ??:0
+	11: [0xbb137] ??() ??:0
+	12: [0x3e7e7] ??() ??:0
+	13: [0x3e843] ??() ??:0
+	14: [0x89f30] ??() ??:0
+	15: [0x551ad] ??() ??:0
+	16: [0x37a4a] ??() ??:0
+	17: [0xb88ff] ??() ??:0
+	18: [0xbb137] ??() ??:0
+	19: [0xa9da2] ??() ??:0
+	20: [0x38030] ??() ??:0
+	21: [0x380c5] ??() ??:0
+	22: [0xa89ec] ??() ??:0
+	23: [0x1bc42] ??() ??:0
+	24: [0xa8d08] ??() ??:0
+	25: [0x55342] ??() ??:0
+	26: [0x994] ??() ??:0
+	27: libc-start.c:344	__libc_start_main()
+	28: [0xa2a] ??() ??:0
+
